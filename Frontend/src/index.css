@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+
+/* Font Variables */
+:root {
+  --font-primary: "Saira", sans-serif;
+}
+
+/* Utility Classes */
+.font-primary {
+  font-family: var(--font-primary);
+}
+
+.font-light {
+  font-family: var(--font-primary);
+  font-weight: 300;
+}
+
+.font-regular {
+  font-family: var(--font-primary);
+  font-weight: 400;
+}
+
+.font-medium {
+  font-family: var(--font-primary);
+  font-weight: 500;
+}
+
+.font-semibold {
+  font-family: var(--font-primary);
+  font-weight: 600;
+}
+
+.font-bold {
+  font-family: var(--font-primary);
+  font-weight: 700;
+}
+
+
+body {
+  font-family: var(--font-primary);
+}
